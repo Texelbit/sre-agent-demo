@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker --version)",
+      "Bash(docker-compose --version)",
+      "Bash(docker compose:*)",
+      "Bash(git --version)",
+      "Bash(yarn --version)",
+      "Bash(docker info:*)",
+      "Bash(make --version)",
+      "Bash(command -v make)",
+      "Bash(docker network:*)",
+      "Bash(ls reaction/*.yml reaction-admin/*.yml example-storefront/*.yml)"
+    ]
+  }
+}
